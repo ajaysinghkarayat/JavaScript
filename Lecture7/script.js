@@ -6,6 +6,7 @@ console.log(val);
 
 console.log(div.setAttribute("id", "newbox"));
 
+
 div.style.backgroundColor = "blue";
 div.style.fontSize = "34px";
 
