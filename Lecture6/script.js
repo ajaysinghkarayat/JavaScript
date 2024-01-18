@@ -12,3 +12,5 @@ console.dir(firstel);
 
 let allel = document.querySelectorAll("p");
 console.dir(allel);
+
+let head1 = document.querySelector("h1");
