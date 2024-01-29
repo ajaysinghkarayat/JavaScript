@@ -7,10 +7,6 @@ button.onclick = () => {
     console.log("Button is clicked 1");
 };
 
-button.onclick = () => {
-    console.log("Button is clicked 2");
-};
-
 // button.onclick = (evt) => {
 //     console.log(evt);
 // };
