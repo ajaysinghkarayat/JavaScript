@@ -23,11 +23,14 @@ let button = document.querySelector("button");
 //     console.log("Button is pressed");
 // };
 
-button.onclick = (evt) => {
-    console.log(evt.type);
-};
+// button.onclick = (evt) => {
+//     console.log(evt); // to print the event
+//     console.log(evt.type); // to print the event type
+// };
 
-
+button.addEventListener("click", () =>{
+    console.log("Button is clicked")
+});
 
 
 
